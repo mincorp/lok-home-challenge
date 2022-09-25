@@ -10,7 +10,9 @@ owners as (
      where invited_by is null
 )
 
-select *
+select 
+    owners.user_id
+   ,top_customers.*    
 
 from owners
 

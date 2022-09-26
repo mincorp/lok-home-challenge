@@ -24,9 +24,11 @@ Prioritising by revenue means that we are focusing on our top customers and reta
 #### 1.1.3 Structure of the model
 
 Step 1 - **sla_ref** list of SLA events to be used in the model. Includes "time out" and "page not found", can be expanded to any number of events.
+
 Step 2 - **sla_events** get all cases of multiple (5) SLA events per user in the last 7.2 minutes (to keep 99.5% uptime)
 
 Step A (parallel to Step 1) - **top customers** get ranked list of **current** customers by revenue
+
 Step B (parallel to Step 2) - identify team owners of our top customers
 
 Final step /Model - **alert_list** get the user_id, team_id, event_name, and event_court for all qualifying SLA events and users. List is ranked by 1)customer rank and 2)event count (descending).

@@ -57,5 +57,5 @@ and event count.
 
 ## 1.2 Model computation
 
-Model developed in dbt cloud using BigQuery . Code in """models""" folder.
+Model developed in dbt cloud using BigQuery . Code in `models` folder.
 
